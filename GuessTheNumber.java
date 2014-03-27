@@ -25,7 +25,7 @@ public class GuessTheNumber {
                 userInput = Integer.parseInt(JOptionPane.showInputDialog(null, "Guess the number! (1 - 100)"));
                     // If user input matches the random number, the loop will exit, and they win the game.
                     if(userInput == randNumber) {
-                        JOptionPane.showMessageDialog(null, "Congratulations, you've won!");
+                        JOptionPane.showMessageDialog(null, "Congratulations, you've won!!");
                         break;
                     }
             // This statement will only run when they have done their first guess (and failed).        
